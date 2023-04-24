@@ -1,0 +1,24 @@
+2023-03-10 09:38:52,713 INFO    MainThread:2835236 [wandb_setup.py:_flush():76] Configure stats pid to 2835236
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_setup.py:_flush():76] Loading settings from /data/home/ubuntu/.config/wandb/settings
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_setup.py:_flush():76] Loading settings from /data/home/ubuntu/workspace/dacon/src/wandb/settings
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'weather_res101.py', 'program': '/data/home/ubuntu/workspace/dacon/src/weather_res101.py'}
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_init.py:_log_setup():506] Logging user logs to /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_093852-ib5ar1ib/logs/debug.log
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_init.py:_log_setup():507] Logging internal logs to /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_093852-ib5ar1ib/logs/debug-internal.log
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_init.py:init():546] calling init triggers
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {'VIDEO_LENGTH': 50, 'HEIGHT': 224, 'WIDTH': 224, 'EPOCHS': 50, 'LEARNING_RATE': 0.0001, 'BATCH_SIZE': 96, 'SEED': 41}
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_init.py:init():602] starting backend
+2023-03-10 09:38:52,714 INFO    MainThread:2835236 [wandb_init.py:init():606] setting up manager
+2023-03-10 09:38:52,716 INFO    MainThread:2835236 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-10 09:38:52,718 INFO    MainThread:2835236 [wandb_init.py:init():613] backend started and connected
+2023-03-10 09:38:52,721 INFO    MainThread:2835236 [wandb_init.py:init():701] updated telemetry
+2023-03-10 09:38:52,722 INFO    MainThread:2835236 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-10 09:38:54,464 INFO    MainThread:2835236 [wandb_run.py:_on_init():2131] communicating current version
+2023-03-10 09:38:54,498 INFO    MainThread:2835236 [wandb_run.py:_on_init():2140] got version response 
+2023-03-10 09:38:54,498 INFO    MainThread:2835236 [wandb_init.py:init():789] starting run threads in backend
+2023-03-10 09:38:57,198 INFO    MainThread:2835236 [wandb_run.py:_console_start():2112] atexit reg
+2023-03-10 09:38:57,198 INFO    MainThread:2835236 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2023-03-10 09:38:57,199 INFO    MainThread:2835236 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2023-03-10 09:38:57,199 INFO    MainThread:2835236 [wandb_run.py:_redirect():2057] Redirects installed.
+2023-03-10 09:38:57,199 INFO    MainThread:2835236 [wandb_init.py:init():831] run started, returning control to user process

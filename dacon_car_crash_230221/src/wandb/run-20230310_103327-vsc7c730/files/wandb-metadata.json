@@ -1,0 +1,79 @@
+{
+    "os": "Linux-5.15.0-1022-aws-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-03-10T01:33:27.866418",
+    "startedAt": "2023-03-10T01:33:27.053511",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/data/home/ubuntu/workspace/dacon/src/weather_rain_res101.py",
+    "codePath": "weather_rain_res101.py",
+    "host": "ip-172-31-7-115",
+    "username": "ubuntu",
+    "executable": "/data/home/ubuntu/anaconda3/envs/pytorch_p39/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2.82225,
+        "min": 1200.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1.578,
+            "min": 1200.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 48.27519989013672,
+        "used": 5.563976287841797
+    },
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 59.850589752197266
+    }
+}

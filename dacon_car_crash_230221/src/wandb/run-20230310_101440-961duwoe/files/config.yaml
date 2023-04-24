@@ -1,0 +1,54 @@
+wandb_version: 1
+
+BATCH_SIZE:
+  desc: null
+  value: 96
+EPOCHS:
+  desc: null
+  value: 50
+HEIGHT:
+  desc: null
+  value: 224
+LEARNING_RATE:
+  desc: null
+  value: 0.0001
+SEED:
+  desc: null
+  value: 41
+VIDEO_LENGTH:
+  desc: null
+  value: 50
+WIDTH:
+  desc: null
+  value: 224
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.12
+    start_time: 1678410880.667639
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      - 80
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      - 80
+      3:
+      - 16
+      - 23
+      4: 3.9.12
+      5: 0.13.11
+      8:
+      - 5

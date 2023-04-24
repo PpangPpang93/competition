@@ -1,0 +1,22 @@
+
+  0%|                                                                      | 0/63 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/home/ubuntu/workspace/dacon/src/weather_snow_res101.py", line 259, in <module>
+    infer_model = train(model,
+  File "/data/home/ubuntu/workspace/dacon/src/weather_snow_res101.py", line 116, in train
+    output = model(videos)
+  File "/data/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/torchvision/models/resnet.py", line 285, in forward
+    return self._forward_impl(x)
+  File "/data/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/torchvision/models/resnet.py", line 271, in _forward_impl
+    x = self.maxpool(x)
+  File "/data/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/data/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/torch/nn/modules/pooling.py", line 162, in forward
+    return F.max_pool2d(input, self.kernel_size, self.stride,
+  File "/data/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/torch/_jit_internal.py", line 423, in fn
+    return if_false(*args, **kwargs)
+  File "/data/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/torch/nn/functional.py", line 782, in _max_pool2d
+    return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+RuntimeError: CUDA out of memory. Tried to allocate 74.00 MiB (GPU 0; 15.78 GiB total capacity; 806.85 MiB already allocated; 63.19 MiB free; 816.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

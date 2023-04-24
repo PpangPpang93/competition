@@ -1,0 +1,1182 @@
+2023-03-10 10:14:40,668 INFO    StreamThr :2906099 [internal.py:wandb_internal():87] W&B internal server running at pid: 2906099, started at: 2023-03-10 10:14:40.668293
+2023-03-10 10:14:40,670 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status
+2023-03-10 10:14:40,673 INFO    WriterThread:2906099 [datastore.py:open_for_write():85] open: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/run-961duwoe.wandb
+2023-03-10 10:14:40,673 DEBUG   SenderThread:2906099 [sender.py:send():336] send: header
+2023-03-10 10:14:40,674 DEBUG   SenderThread:2906099 [sender.py:send():336] send: run
+2023-03-10 10:14:41,264 INFO    SenderThread:2906099 [dir_watcher.py:__init__():219] watching files in: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files
+2023-03-10 10:14:41,264 INFO    SenderThread:2906099 [sender.py:_start_run_threads():1078] run started: 961duwoe with start time 1678410880.667639
+2023-03-10 10:14:41,264 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:14:41,265 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:14:41,266 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: check_version
+2023-03-10 10:14:41,266 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: check_version
+2023-03-10 10:14:41,347 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: run_start
+2023-03-10 10:14:41,357 DEBUG   HandlerThread:2906099 [system_info.py:__init__():31] System info init
+2023-03-10 10:14:41,357 DEBUG   HandlerThread:2906099 [system_info.py:__init__():46] System info init done
+2023-03-10 10:14:41,357 INFO    HandlerThread:2906099 [system_monitor.py:start():183] Starting system monitor
+2023-03-10 10:14:41,357 INFO    SystemMonitor:2906099 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-10 10:14:41,357 INFO    HandlerThread:2906099 [system_monitor.py:probe():204] Collecting system info
+2023-03-10 10:14:41,358 INFO    SystemMonitor:2906099 [interfaces.py:start():187] Started cpu monitoring
+2023-03-10 10:14:41,358 INFO    SystemMonitor:2906099 [interfaces.py:start():187] Started disk monitoring
+2023-03-10 10:14:41,359 INFO    SystemMonitor:2906099 [interfaces.py:start():187] Started gpu monitoring
+2023-03-10 10:14:41,360 INFO    SystemMonitor:2906099 [interfaces.py:start():187] Started memory monitoring
+2023-03-10 10:14:41,361 INFO    SystemMonitor:2906099 [interfaces.py:start():187] Started network monitoring
+2023-03-10 10:14:41,386 DEBUG   HandlerThread:2906099 [system_info.py:probe():195] Probing system
+2023-03-10 10:14:41,391 DEBUG   HandlerThread:2906099 [git.py:repo():40] git repository is invalid
+2023-03-10 10:14:41,391 DEBUG   HandlerThread:2906099 [system_info.py:probe():240] Probing system done
+2023-03-10 10:14:41,391 DEBUG   HandlerThread:2906099 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-1022-aws-x86_64-with-glibc2.31', 'python': '3.9.12', 'heartbeatAt': '2023-03-10T01:14:41.386139', 'startedAt': '2023-03-10T01:14:40.661497', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/data/home/ubuntu/workspace/dacon/src/weather_snow_res101.py', 'codePath': 'weather_snow_res101.py', 'host': 'ip-172-31-7-115', 'username': 'ubuntu', 'executable': '/data/home/ubuntu/anaconda3/envs/pytorch_p39/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2.9627499999999998, 'min': 1200.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 2.702, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3.0, 'min': 1200.0, 'max': 3000.0}], 'disk': {'total': 48.27519989013672, 'used': 5.563953399658203}, 'gpu': 'Tesla V100-SXM2-16GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla V100-SXM2-16GB', 'memory_total': 17179869184}], 'memory': {'total': 59.850589752197266}}
+2023-03-10 10:14:41,392 INFO    HandlerThread:2906099 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-10 10:14:41,392 INFO    HandlerThread:2906099 [system_monitor.py:probe():217] Publishing system info
+2023-03-10 10:14:41,392 DEBUG   HandlerThread:2906099 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-10 10:14:41,392 DEBUG   HandlerThread:2906099 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-10 10:14:41,392 DEBUG   HandlerThread:2906099 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-10 10:14:42,267 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_created():278] file/dir created: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/conda-environment.yaml
+2023-03-10 10:14:42,267 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_created():278] file/dir created: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/requirements.txt
+2023-03-10 10:14:42,268 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_created():278] file/dir created: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:14:44,002 DEBUG   HandlerThread:2906099 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-10 10:14:44,002 INFO    HandlerThread:2906099 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-10 10:14:44,005 DEBUG   SenderThread:2906099 [sender.py:send():336] send: files
+2023-03-10 10:14:44,005 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-10 10:14:44,012 DEBUG   SenderThread:2906099 [sender.py:send():336] send: telemetry
+2023-03-10 10:14:44,012 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-10 10:14:44,013 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: stop_status
+2023-03-10 10:14:44,268 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/conda-environment.yaml
+2023-03-10 10:14:44,268 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_created():278] file/dir created: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-metadata.json
+2023-03-10 10:14:44,791 INFO    wandb-upload_0:2906099 [upload_job.py:push():138] Uploaded file /tmp/tmpxxr6tedywandb/zrro9jjp-wandb-metadata.json
+2023-03-10 10:14:46,276 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:14:48,269 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_created():278] file/dir created: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:14:50,270 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:14:51,594 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:14:52,271 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:14:54,272 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:14:56,273 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:14:56,771 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:14:58,274 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:14:59,011 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:14:59,011 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:00,274 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:01,951 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:02,275 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:04,018 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:04,276 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:06,277 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:07,160 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:08,278 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:09,019 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:10,279 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:12,279 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:12,373 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:13,280 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/config.yaml
+2023-03-10 10:15:14,020 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:14,280 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:16,281 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:18,042 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:18,281 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:19,021 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:20,282 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:22,283 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:23,141 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:24,046 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:24,283 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:26,284 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:26,914 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:15:28,187 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:28,284 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:29,087 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:29,285 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:30,285 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:32,286 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:33,433 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:34,088 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:34,286 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:36,287 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:38,288 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:38,651 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:39,089 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:40,289 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:41,361 DEBUG   SystemMonitor:2906099 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-10 10:15:41,362 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:15:42,290 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:43,861 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:44,089 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:44,290 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:46,293 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:48,294 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:49,047 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:49,090 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:50,295 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:52,295 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:54,091 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:54,263 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:15:54,296 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:56,297 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:58,298 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:15:59,092 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:15:59,455 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:00,298 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:02,299 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:04,134 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:04,206 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:16:04,207 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:16:04,207 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:16:04,208 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:16:04,300 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:04,300 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:16:04,473 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:05,300 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:06,300 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:07,301 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:08,301 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:09,215 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:09,738 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:10,302 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:11,363 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:16:12,303 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:14,224 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:14,303 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:14,944 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:16,304 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:18,305 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:19,227 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:20,165 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:20,306 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:22,307 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:24,227 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:24,307 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:25,378 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:26,308 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:28,309 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:29,228 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:30,310 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:30,608 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:32,311 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:34,229 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:34,311 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:35,806 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:36,312 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:38,313 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:39,324 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:40,314 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:40,922 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:41,364 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:16:41,487 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:16:41,488 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:16:41,488 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:16:41,489 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:16:42,315 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:42,315 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:16:43,315 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:44,316 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:44,370 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:46,148 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:46,317 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:48,317 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:49,372 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:50,318 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:51,362 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:52,319 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:54,320 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:54,374 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:16:56,320 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:56,576 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:16:58,321 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:16:59,374 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:00,322 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:01,791 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:02,323 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:04,323 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:04,376 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:06,324 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:07,014 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:08,325 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:09,385 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:10,326 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:11,364 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:17:12,205 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:12,327 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:14,328 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:14,386 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:16,329 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:17,317 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:18,329 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:18,802 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:17:18,803 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:17:18,803 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:17:18,803 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:17:19,329 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:17:19,520 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:20,330 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:21,330 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:22,331 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:22,493 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:24,331 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:24,523 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:26,333 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:27,688 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:28,334 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:29,524 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:30,335 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:32,336 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:32,890 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:34,336 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:34,536 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:36,337 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:38,118 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:38,338 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:39,546 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:40,339 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:41,365 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:17:42,339 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:43,325 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:44,340 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:44,547 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:46,341 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:48,341 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:48,518 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:49,548 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:50,342 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:52,343 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:53,521 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:54,344 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:54,614 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:17:56,071 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:17:56,073 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:17:56,073 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:17:56,073 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:17:56,345 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:56,345 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:17:57,345 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:58,345 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:17:58,826 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:17:59,645 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:00,346 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:02,347 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:04,012 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:04,347 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:04,646 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:06,348 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:08,349 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:09,209 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:09,647 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:10,350 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:11,366 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:18:12,351 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:14,351 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:14,419 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:14,648 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:16,352 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:18,353 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:19,612 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:19,648 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:20,354 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:22,355 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:24,356 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:24,649 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:24,819 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:26,356 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:28,357 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:29,717 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:29,933 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:30,358 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:32,358 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:33,368 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:18:33,369 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:18:33,369 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:18:33,369 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:18:34,359 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:34,359 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:18:34,826 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:35,360 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:35,635 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:36,360 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:38,361 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:39,828 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:40,361 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:40,852 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:41,366 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:18:42,362 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:44,363 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:44,829 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:46,041 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:46,363 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:48,364 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:49,830 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:50,365 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:51,242 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:52,366 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:54,367 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:54,831 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:18:56,367 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:56,446 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:18:58,368 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:18:59,832 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:00,369 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:01,650 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:02,369 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:04,370 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:04,832 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:06,370 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:07,266 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:08,371 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:09,873 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:10,372 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:10,591 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:19:10,592 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:19:10,592 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:19:10,593 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:19:11,367 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:19:11,373 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:11,373 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:19:12,373 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:12,812 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:13,374 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:14,374 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:15,059 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:16,375 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:18,032 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:18,376 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:20,060 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:20,376 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:22,377 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:23,254 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:24,378 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:25,061 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:26,379 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:28,379 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:28,480 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:30,065 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:30,380 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:32,381 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:33,675 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:34,381 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:35,066 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:36,382 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:38,383 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:38,875 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:40,067 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:40,384 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:41,368 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:19:42,385 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:44,385 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:44,507 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:45,118 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:45,119 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:46,386 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:47,878 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:19:47,879 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:19:47,879 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:19:47,880 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:19:48,387 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:48,387 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:19:49,387 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:50,079 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:50,182 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:50,387 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:52,388 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:54,389 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:55,183 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:19:55,273 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:19:56,390 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:19:58,390 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:00,184 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:00,392 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:00,494 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:02,393 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:04,393 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:05,185 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:05,683 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:06,394 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:08,395 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:10,186 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:10,396 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:10,892 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:11,369 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:20:12,396 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:14,397 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:15,186 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:16,094 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:16,398 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:18,399 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:20,187 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:20,400 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:21,704 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:22,400 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:24,401 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:25,054 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:20:25,054 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:20:25,055 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:20:25,055 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:20:25,312 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:25,401 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:20:26,402 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:27,304 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:27,402 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:28,402 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:30,368 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:30,403 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:32,403 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:32,511 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:34,404 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:35,369 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:36,405 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:37,703 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:38,406 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:40,370 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:40,407 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:41,369 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:20:42,407 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:42,899 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:44,408 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:45,371 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:46,409 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:48,104 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:48,410 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:50,373 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:50,410 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:52,411 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:53,307 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:20:54,412 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:55,374 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:20:56,412 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:58,413 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:20:58,912 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:00,414 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:00,517 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:02,268 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:21:02,269 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:21:02,270 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:21:02,270 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:21:02,415 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:02,415 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:21:03,415 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:04,415 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:04,546 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:05,582 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:06,416 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:08,417 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:09,737 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:10,417 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:10,583 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:11,370 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:21:12,418 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:14,418 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:14,942 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:15,586 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:16,419 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:18,420 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:20,142 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:20,421 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:20,587 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:22,422 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:24,422 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:25,356 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:25,588 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:26,423 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:28,424 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:30,425 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:30,562 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:30,589 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:32,426 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:34,427 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:35,636 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:36,180 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:36,427 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:38,428 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:39,558 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:21:39,559 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:21:39,559 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:21:39,559 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:21:40,429 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:40,429 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:21:40,722 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:41,371 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:21:41,372 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:41,430 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:42,430 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:44,431 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:45,724 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:46,432 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:46,616 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:48,432 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:50,433 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:50,725 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:51,839 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:52,434 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:54,434 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:55,726 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:21:56,435 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:21:57,032 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:21:58,436 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:00,436 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:00,727 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:02,265 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:02,437 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:04,438 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:05,728 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:06,438 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:07,463 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:08,439 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:10,440 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:10,729 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:11,371 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:22:12,441 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:12,543 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:15,442 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:15,852 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:16,957 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:22:16,959 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:22:16,959 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:22:16,960 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:22:17,443 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:17,443 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:22:18,231 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:19,444 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:20,974 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:21,445 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:23,445 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:23,473 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:25,446 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:25,976 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:27,447 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:28,683 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:29,447 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:30,976 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:31,448 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:33,449 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:33,903 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:35,450 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:35,977 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:37,450 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:39,110 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:39,451 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:40,978 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:41,372 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:22:41,452 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:43,452 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:44,303 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:45,453 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:45,979 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:47,453 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:49,454 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:49,496 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:51,051 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:51,455 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:53,456 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:54,198 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:22:54,199 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:22:54,199 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:22:54,199 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:22:54,456 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:22:55,457 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:55,481 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:22:56,096 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:22:57,457 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:22:59,459 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:00,787 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:01,097 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:01,460 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:03,460 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:05,461 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:05,993 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:06,106 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:07,462 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:09,463 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:11,107 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:11,201 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:11,373 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:23:11,464 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:13,464 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:15,465 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:16,118 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:16,442 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:17,466 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:19,466 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:21,119 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:21,467 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:21,668 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:23,468 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:25,468 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:26,119 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:26,861 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:27,469 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:29,470 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:31,121 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:31,471 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:31,556 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:23:31,557 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:23:31,557 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:23:31,558 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:23:32,471 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:23:32,830 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:33,472 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:35,473 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:36,278 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:37,473 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:38,054 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:39,474 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:41,279 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:41,373 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:23:41,475 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:43,256 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:43,476 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:45,476 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:46,280 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:47,477 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:48,476 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:49,478 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:51,281 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:51,479 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:53,479 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:53,679 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:55,480 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:56,282 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:23:57,481 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:23:58,874 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:23:59,481 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:01,282 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:01,482 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:03,482 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:04,081 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:05,483 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:06,358 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:07,484 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:08,808 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:24:08,809 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:24:08,809 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:24:08,810 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:24:09,485 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:09,485 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:24:10,073 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:11,370 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:11,374 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:24:11,486 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:13,486 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:15,368 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:15,487 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:16,382 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:17,487 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:19,488 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:20,567 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:21,383 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:21,489 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:23,490 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:25,490 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:25,769 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:26,384 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:27,491 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:29,492 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:30,977 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:31,385 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:31,493 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:33,494 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:35,494 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:36,176 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:36,385 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:37,495 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:39,496 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:41,391 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:41,392 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:41,392 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:24:41,496 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:43,497 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:45,498 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:46,095 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:24:46,096 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:24:46,096 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:24:46,096 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:24:46,498 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:24:46,667 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:47,373 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:47,499 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:49,500 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:51,500 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:51,669 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:52,629 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:53,501 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:55,502 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:56,670 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:24:57,503 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:24:57,816 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:24:59,504 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:01,505 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:01,671 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:03,032 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:03,506 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:05,507 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:06,672 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:07,507 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:08,273 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:09,508 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:11,376 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:25:11,509 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:11,673 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:13,476 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:13,510 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:15,510 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:16,674 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:17,511 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:18,669 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:19,512 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:21,513 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:21,787 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:23,381 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:25:23,382 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:25:23,382 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:25:23,383 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:25:23,514 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:23,514 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:25:24,646 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:25,514 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:26,515 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:26,943 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:27,515 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:29,516 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:29,921 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:31,517 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:31,944 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:33,517 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:35,124 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:35,518 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:36,945 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:37,519 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:39,520 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:40,318 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:41,378 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:25:41,521 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:41,946 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:43,525 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:45,526 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:45,767 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:46,947 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:47,527 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:49,529 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:50,986 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:51,529 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:51,948 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:53,530 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:55,530 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:56,182 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:25:57,027 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:25:57,531 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:25:59,532 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:00,937 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:26:00,938 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:26:00,938 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:26:00,939 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:26:01,207 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:01,533 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:01,533 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:26:02,280 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:02,533 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:03,533 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:04,534 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:05,534 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:06,519 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:07,282 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:07,535 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:09,536 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:11,378 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:26:11,536 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:11,709 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:12,283 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:13,537 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:15,537 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:16,899 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:17,284 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:17,538 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:19,539 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:21,539 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:22,102 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:22,285 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:23,540 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:25,541 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:27,286 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:27,349 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:27,542 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:29,543 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:31,543 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:32,287 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:32,539 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:33,544 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:35,545 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:37,313 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:37,546 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:37,674 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:38,254 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:26:38,255 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:26:38,256 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:26:38,256 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:26:38,546 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:26:39,546 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:40,547 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:41,379 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:26:41,547 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:42,425 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:42,836 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:43,548 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:45,549 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:47,426 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:47,550 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:48,032 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:49,550 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:51,551 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:52,427 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:53,226 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:53,552 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:55,553 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:57,427 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:26:57,553 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:26:58,426 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:26:59,554 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:01,555 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:02,428 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:03,555 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:03,644 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:05,556 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:07,429 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:07,557 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:08,832 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:09,557 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:11,380 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:27:11,558 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:12,676 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:13,559 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:13,963 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:15,440 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:27:15,441 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:27:15,441 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:27:15,442 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:27:15,560 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:15,560 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:27:17,560 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:17,748 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:18,560 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:19,096 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:19,561 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:21,562 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:22,749 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:23,562 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:24,283 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:25,563 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:27,564 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:27,750 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:29,486 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:29,564 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:31,565 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:32,751 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:33,565 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:34,692 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:35,566 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:37,567 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:37,756 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:39,568 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:39,918 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:41,380 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:27:41,569 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:42,763 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:43,569 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:45,115 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:45,570 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:47,571 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:47,764 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:49,583 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:50,128 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:51,584 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:52,668 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:27:52,669 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:27:52,669 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:27:52,669 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:27:52,770 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:53,585 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:53,585 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:27:54,585 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:55,414 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:27:55,586 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:57,586 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:27:57,827 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:27:59,587 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:00,611 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:01,588 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:02,828 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:03,589 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:05,589 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:05,823 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:07,590 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:07,835 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:09,590 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:11,025 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:11,382 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:28:11,591 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:12,836 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:13,592 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:15,593 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:16,230 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:17,594 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:17,837 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:19,595 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:21,422 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:21,596 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:22,838 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:23,596 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:25,597 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:26,564 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:27,598 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:27,873 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:29,598 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:29,909 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:28:29,909 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:28:29,910 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:28:29,910 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:28:30,599 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:28:31,600 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:32,161 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:32,600 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:32,922 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:33,600 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:35,601 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:37,350 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:37,602 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:37,923 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:39,603 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:41,381 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:28:41,604 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:42,548 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:42,924 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:43,604 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:45,605 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:47,606 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:47,760 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:47,926 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:49,606 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:51,607 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:52,927 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:52,991 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:53,608 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:55,609 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:57,609 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:28:57,928 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:28:58,184 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:28:59,610 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:01,611 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:02,963 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:03,611 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:03,792 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:05,612 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:07,173 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:29:07,174 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:29:07,174 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:29:07,175 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:29:07,614 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:07,614 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:29:08,182 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:08,614 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:09,407 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:09,614 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:10,615 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:11,382 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:29:11,615 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:13,184 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:13,616 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:14,634 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:15,616 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:17,617 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:18,185 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:19,618 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:19,835 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:21,619 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:23,186 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:23,619 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:25,069 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:25,620 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:27,620 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:28,187 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:29,621 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:30,277 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:31,622 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:33,188 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:33,623 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:35,476 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:35,623 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:37,624 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:38,189 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:39,624 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:41,081 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:41,383 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:29:41,625 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:43,322 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:43,626 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:44,484 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:29:44,485 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:29:44,485 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:29:44,486 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:29:44,626 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:29:45,627 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:46,627 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:46,741 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:47,628 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:48,520 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:49,628 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:51,629 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:51,942 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:53,521 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:53,629 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:55,630 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:57,148 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:29:57,631 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:29:58,522 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:29:59,632 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:01,632 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:02,371 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:03,523 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:03,633 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:05,633 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:07,567 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:07,634 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:08,524 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:09,635 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:11,384 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:30:11,636 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:12,760 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:13,525 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:13,636 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:15,637 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:17,638 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:18,364 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:18,673 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:19,639 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:21,640 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:21,744 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:30:21,745 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:30:21,745 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:30:21,745 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:30:22,640 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:30:23,641 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:23,917 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:23,951 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:24,641 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:25,641 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:27,642 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:28,918 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:29,181 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:29,643 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:31,643 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:33,644 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:33,919 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:34,374 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:35,645 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:37,645 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:38,920 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:39,585 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:39,646 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:41,384 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:30:41,647 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:43,647 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:43,921 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:44,777 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:45,648 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:47,649 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:48,922 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:49,649 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:49,969 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:51,650 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:53,651 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:53,925 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:55,565 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:30:55,651 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:57,652 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:58,955 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-10 10:30:58,955 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:30:58,956 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:30:58,956 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:30:59,048 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:30:59,653 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:30:59,653 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:31:00,654 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:31:01,249 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:31:01,654 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:31:03,655 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:31:04,125 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 10:31:05,187 DEBUG   SenderThread:2906099 [sender.py:send():336] send: exit
+2023-03-10 10:31:05,188 INFO    SenderThread:2906099 [sender.py:send_exit():559] handling exit code: 0
+2023-03-10 10:31:05,188 INFO    SenderThread:2906099 [sender.py:send_exit():561] handling runtime: 983
+2023-03-10 10:31:05,188 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:31:05,188 INFO    SenderThread:2906099 [sender.py:send_exit():567] send defer
+2023-03-10 10:31:05,188 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,189 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-10 10:31:05,189 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,189 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-10 10:31:05,189 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 1
+2023-03-10 10:31:05,189 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,189 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-10 10:31:05,189 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,190 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-10 10:31:05,190 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 2
+2023-03-10 10:31:05,190 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,190 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-10 10:31:05,190 INFO    HandlerThread:2906099 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-10 10:31:05,191 DEBUG   SystemMonitor:2906099 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-10 10:31:05,192 DEBUG   SystemMonitor:2906099 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-10 10:31:05,193 INFO    HandlerThread:2906099 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-10 10:31:05,193 INFO    HandlerThread:2906099 [interfaces.py:finish():199] Joined disk monitor
+2023-03-10 10:31:05,301 INFO    HandlerThread:2906099 [interfaces.py:finish():199] Joined gpu monitor
+2023-03-10 10:31:05,302 INFO    HandlerThread:2906099 [interfaces.py:finish():199] Joined memory monitor
+2023-03-10 10:31:05,302 INFO    HandlerThread:2906099 [interfaces.py:finish():199] Joined network monitor
+2023-03-10 10:31:05,302 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,302 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-10 10:31:05,302 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 3
+2023-03-10 10:31:05,303 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,303 DEBUG   SenderThread:2906099 [sender.py:send():336] send: stats
+2023-03-10 10:31:05,303 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-10 10:31:05,304 DEBUG   SenderThread:2906099 [sender.py:send():336] send: history
+2023-03-10 10:31:05,304 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 10:31:05,305 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:31:05,305 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,305 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-10 10:31:05,305 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 4
+2023-03-10 10:31:05,305 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,305 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-10 10:31:05,306 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,306 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-10 10:31:05,306 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 5
+2023-03-10 10:31:05,306 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,306 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-10 10:31:05,306 DEBUG   SenderThread:2906099 [sender.py:send():336] send: summary
+2023-03-10 10:31:05,307 INFO    SenderThread:2906099 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-10 10:31:05,307 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,307 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-10 10:31:05,307 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 6
+2023-03-10 10:31:05,307 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,307 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-10 10:31:05,308 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,308 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-10 10:31:05,308 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 7
+2023-03-10 10:31:05,308 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 10:31:05,308 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 10:31:05,308 INFO    HandlerThread:2906099 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-10 10:31:05,308 DEBUG   SenderThread:2906099 [sender.py:send_request():363] send_request: defer
+2023-03-10 10:31:05,308 INFO    SenderThread:2906099 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-10 10:31:05,655 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:31:05,656 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:31:06,188 DEBUG   HandlerThread:2906099 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-10 10:31:06,673 WARNING StreamThr :2906099 [internal.py:is_dead():415] Internal process exiting, parent pid 2897762 disappeared
+2023-03-10 10:31:06,673 ERROR   StreamThr :2906099 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-03-10 10:31:07,188 INFO    HandlerThread:2906099 [handler.py:finish():842] shutting down handler
+2023-03-10 10:31:07,188 INFO    WriterThread:2906099 [datastore.py:close():298] close: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/run-961duwoe.wandb
+2023-03-10 10:31:07,656 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:31:07,865 INFO    SenderThread:2906099 [sender.py:transition_state():587] send defer: 8
+2023-03-10 10:31:07,866 INFO    SenderThread:2906099 [sender.py:finish():1504] shutting down sender
+2023-03-10 10:31:07,866 INFO    SenderThread:2906099 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-10 10:31:08,657 INFO    Thread-13 :2906099 [dir_watcher.py:_on_file_modified():295] file/dir modified: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:31:08,657 INFO    SenderThread:2906099 [dir_watcher.py:finish():395] scan: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files
+2023-03-10 10:31:08,657 INFO    SenderThread:2906099 [dir_watcher.py:finish():409] scan save: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/config.yaml config.yaml
+2023-03-10 10:31:08,657 INFO    SenderThread:2906099 [dir_watcher.py:finish():409] scan save: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json wandb-summary.json
+2023-03-10 10:31:08,660 INFO    SenderThread:2906099 [dir_watcher.py:finish():409] scan save: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/requirements.txt requirements.txt
+2023-03-10 10:31:08,661 INFO    SenderThread:2906099 [dir_watcher.py:finish():409] scan save: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/conda-environment.yaml conda-environment.yaml
+2023-03-10 10:31:08,664 INFO    SenderThread:2906099 [dir_watcher.py:finish():409] scan save: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-metadata.json wandb-metadata.json
+2023-03-10 10:31:08,664 INFO    SenderThread:2906099 [dir_watcher.py:finish():409] scan save: /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log output.log
+2023-03-10 10:31:08,665 INFO    SenderThread:2906099 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-10 10:31:08,665 INFO    SenderThread:2906099 [file_pusher.py:join():169] waiting for file pusher
+2023-03-10 10:31:09,415 INFO    wandb-upload_4:2906099 [upload_job.py:push():138] Uploaded file /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/output.log
+2023-03-10 10:31:09,425 INFO    wandb-upload_2:2906099 [upload_job.py:push():138] Uploaded file /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/requirements.txt
+2023-03-10 10:31:09,428 INFO    wandb-upload_1:2906099 [upload_job.py:push():138] Uploaded file /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/wandb-summary.json
+2023-03-10 10:31:09,435 INFO    wandb-upload_0:2906099 [upload_job.py:push():138] Uploaded file /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/config.yaml
+2023-03-10 10:31:09,466 INFO    wandb-upload_3:2906099 [upload_job.py:push():138] Uploaded file /data/home/ubuntu/workspace/dacon/src/wandb/run-20230310_101440-961duwoe/files/conda-environment.yaml

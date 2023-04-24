@@ -1,0 +1,79 @@
+{
+    "os": "Linux-5.15.0-1022-aws-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-03-09T02:22:16.354325",
+    "startedAt": "2023-03-09T02:22:15.062475",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/data/home/ubuntu/workspace/dacon/src/timing_train.py",
+    "codePath": "timing_train.py",
+    "host": "ip-172-31-7-115",
+    "username": "ubuntu",
+    "executable": "/data/home/ubuntu/anaconda3/envs/pytorch_p39/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2.924875,
+        "min": 1200.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.7,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.699,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1200.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 48.27519989013672,
+        "used": 5.181377410888672
+    },
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 59.850589752197266
+    }
+}
