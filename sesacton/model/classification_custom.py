@@ -8,8 +8,8 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 import wandb
 
-DATAPATH = 'D:/sesac/data/'
-SAVEPATH = 'D:/sesac/model/ckp/'
+DATAPATH = 'path/to/data'
+SAVEPATH = './model/ckp/'
 wandb.init(
     project="image_classification",
     config={

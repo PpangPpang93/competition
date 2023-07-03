@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 CLASSNAME = ['LG노트북', '가방', '갈색', '갤럭시', '검정색', '구찌', '꽃무늬', '노란색', '노트북', '루이비통', '맥북', '모자', '백팩', '빨간색', '삼성노트북', '손목시계', '숄더백', '신발', '아이폰', '악세사리', '에코백', '의류', '이어폰', '장지갑', '전자기기', '줄무늬', '지갑', '체크무늬', '초록색', '카드지갑', '카키색', '크로스백', '파란색', '핑크색', '하얀색', '핸드백', '힙색']
-CKPPATH = 'D:/sesac/model/ckp/obj_3.pth'
+CKPPATH = 'path/to/pth'
 
 def imshow(input, title):
     # torch.Tensor를 numpy 객체로 변환
@@ -54,7 +54,7 @@ if __name__=='__main__':
     device = torch.device('cuda:0')
     model.to(device)
 
-    img_path = 'C:/Users/ppang/Desktop/sample/지갑.jpg'
+    img_path = 'path/to/image'
     
     ckp = torch.load(CKPPATH)
     model.load_state_dict(ckp['model_state_dict'])
